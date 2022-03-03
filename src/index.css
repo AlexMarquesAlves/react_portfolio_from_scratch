@@ -9,7 +9,7 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
-  --transition: all 400ms ease
+  --transition: all 400ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -88,7 +88,7 @@ section > h2 {
   color: var(--color-light);
 }
 
-a{
+a {
   color: var(--color-primary);
   transition: var(--transition);
 }
@@ -101,8 +101,8 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: .75rem 1.2rem;
-  border-radius: .4rem;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
@@ -114,7 +114,7 @@ a:hover {
   border-color: transparent;
 }
 
-.btn-primary{
+.btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
 }
@@ -127,25 +127,24 @@ img {
 
 /* ======================= MEDIA QUERIES =================================== */
 
-@media screen and (max-width:1024px) {
-  .container{
+@media screen and (max-width: 1024px) {
+  .container {
     width: var(--container-width-md);
   }
 
-  section{
+  section {
     margin-top: 6rem;
   }
 }
 
 /* ======================= MEDIA QUERIES (SMALL DEVICES)=================================== */
 
-@media screen and (max-width:600px) {
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     width: var(--container-width-sm);
   }
 
-  section>h2{
+  section > h2 {
     margin-top: 2rem;
-
   }
 }
