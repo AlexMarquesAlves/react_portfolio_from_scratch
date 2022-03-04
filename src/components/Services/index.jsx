@@ -1,7 +1,5 @@
-function Sercises() {
-  return (
-    <h1>Sercises</h1>
-  );
+function Services() {
+  return <section id="#services">Services</section>;
 }
 
-export default Sercises;
+export default Services;

@@ -1,7 +1,5 @@
 function Portfolio() {
-  return (
-    <h1>Portfolio</h1>
-  );
+  return <section id="#portfolio">Portfolio</section>;
 }
 
 export default Portfolio;

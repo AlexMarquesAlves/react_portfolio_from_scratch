@@ -1,7 +1,5 @@
-function Expirience() {
-  return (
-    <h1>Expirience</h1>
-  );
+function Experience() {
+  return <section id="#experience">Experience</section>;
 }
 
-export default Expirience;
+export default Experience;

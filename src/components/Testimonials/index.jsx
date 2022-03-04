@@ -1,7 +1,5 @@
 function Testimonials() {
-  return (
-    <h1>Testimonials</h1>
-  );
+  return <section id="#testimonials">Testimonials</section>;
 }
 
 export default Testimonials;
