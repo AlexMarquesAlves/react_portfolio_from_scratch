@@ -35,11 +35,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--color-bg);
+  background: linear-gradient(
+    180deg,
+    var(--color-bg),
+    var(--color-primary),
+    var(--color-bg-variant)
+  );
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/black-texture.png);
+  /* background-image: url(../src/assets/bg-texture.jpg); */
   /* background-repeat: no-repeat; */
-  background-size: 25rem;
+  /* background-size: 0; */
 }
 
 code {
