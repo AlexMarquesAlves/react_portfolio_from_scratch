@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import "./styles.css";
@@ -7,7 +8,7 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 
-function Nav() {
+const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
@@ -48,6 +49,6 @@ function Nav() {
       </a>
     </nav>
   );
-}
+};
 
 export default Nav;
