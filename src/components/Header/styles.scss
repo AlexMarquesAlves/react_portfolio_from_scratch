@@ -29,13 +29,13 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
-}
 
-.header__socials::after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
+  &::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+  }
 }
 
 /* ===================================ME===================================== */
@@ -50,10 +50,10 @@ header {
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
-}
 
-.me > img {
-  border-radius: 12rem 12rem 0 0;
+  img {
+    border-radius: 12rem 12rem 0 0;
+  }
 }
 
 /* ===================================ME===================================== */
