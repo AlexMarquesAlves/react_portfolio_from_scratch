@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import "./styles.css";
 // React icons imports
-import { FaFacebookkf, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
@@ -37,7 +38,7 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a href="https://facebook.com">
-          <FaFacebookkf />
+          <FaFacebookF />
         </a>
         <a href="https://instagram.com">
           <FiInstagram />
