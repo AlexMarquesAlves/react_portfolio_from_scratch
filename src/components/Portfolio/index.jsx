@@ -14,7 +14,119 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         <article className="portfolio__item">
-          <div className="portfolio__item-image"></div>
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="projects thumbnails" />
+          </div>
+          <h3>This is a Portfolio Item Title</h3>
+          <a
+            href="https://github.com/"
+            className="btn"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Github
+          </a>
+          <a
+            href="https://github.com/"
+            className="btn btn-primary"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Live Demo
+          </a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt="projects thumbnails" />
+          </div>
+          <h3>This is a Portfolio Item Title</h3>
+          <a
+            href="https://github.com/"
+            className="btn"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Github
+          </a>
+          <a
+            href="https://github.com/"
+            className="btn btn-primary"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Live Demo
+          </a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="projects thumbnails" />
+          </div>
+          <h3>This is a Portfolio Item Title</h3>
+          <a
+            href="https://github.com/"
+            className="btn"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Github
+          </a>
+          <a
+            href="https://github.com/"
+            className="btn btn-primary"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Live Demo
+          </a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="projects thumbnails" />
+          </div>
+          <h3>This is a Portfolio Item Title</h3>
+          <a
+            href="https://github.com/"
+            className="btn"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Github
+          </a>
+          <a
+            href="https://github.com/"
+            className="btn btn-primary"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Live Demo
+          </a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="projects thumbnails" />
+          </div>
+          <h3>This is a Portfolio Item Title</h3>
+          <a
+            href="https://github.com/"
+            className="btn"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Github
+          </a>
+          <a
+            href="https://github.com/"
+            className="btn btn-primary"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Live Demo
+          </a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="projects thumbnails" />
+          </div>
           <h3>This is a Portfolio Item Title</h3>
           <a
             href="https://github.com/"
