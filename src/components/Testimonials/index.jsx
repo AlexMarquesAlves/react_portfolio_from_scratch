@@ -17,7 +17,7 @@ const data = [
     neque.`,
   },
   {
-    avatar: AVTR2,
+    avatar: AVTR4,
     name: "Shatta Wale",
     review: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error non
     harum vel, iusto, laboriosam dolor autem aliquid commodi tempore aut
@@ -33,7 +33,7 @@ const data = [
     neque.`,
   },
   {
-    avatar: AVTR4,
+    avatar: AVTR2,
     name: "Nana Ama McBrown",
     review: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error non
     harum vel, iusto, laboriosam dolor autem aliquid commodi tempore aut
@@ -49,57 +49,17 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
 
       <div className="container testimonials__container">
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar One" />
-          </div>
-          <h5 className="client__name">Liza Scout</h5>
-          <small className="client__review">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error non
-            harum vel, iusto, laboriosam dolor autem aliquid commodi tempore aut
-            velit, fugiat consequatur fuga sunt earum id sapiente consequuntur
-            neque.
-          </small>
-        </article>
-
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR2} alt="Avatar One" />
-          </div>
-          <h5 className="client__name">Liza Scout</h5>
-          <small className="client__review">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error non
-            harum vel, iusto, laboriosam dolor autem aliquid commodi tempore aut
-            velit, fugiat consequatur fuga sunt earum id sapiente consequuntur
-            neque.
-          </small>
-        </article>
-
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR3} alt="Avatar One" />
-          </div>
-          <h5 className="client__name">Liza Scout</h5>
-          <small className="client__review">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error non
-            harum vel, iusto, laboriosam dolor autem aliquid commodi tempore aut
-            velit, fugiat consequatur fuga sunt earum id sapiente consequuntur
-            neque.
-          </small>
-        </article>
-
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR4} alt="Avatar One" />
-          </div>
-          <h5 className="client__name">Liza Scout</h5>
-          <small className="client__review">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error non
-            harum vel, iusto, laboriosam dolor autem aliquid commodi tempore aut
-            velit, fugiat consequatur fuga sunt earum id sapiente consequuntur
-            neque.
-          </small>
-        </article>
+        {data.map(({ avatar, name, review }, index) => {
+          return (
+            <article key={index} className="testimonial">
+              <div className="client__avatar">
+                <img src={avatar} alt={name} />
+              </div>
+              <h5 className="client__name">{name}</h5>
+              <small className="client__review">{review}</small>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
