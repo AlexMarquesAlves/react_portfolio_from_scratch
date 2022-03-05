@@ -1,11 +1,31 @@
 import React from "react";
 import "./styles.css";
+
 // React icons imports
 import { MdOutlineMail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 
+// Email js required
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_sbin7xj",
+      "template_qkczquf",
+      form.current,
+      "31ndjHOhKJM7XMwZU"
+    );
+
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get In Torch</h5>
@@ -47,7 +67,7 @@ const Contact = () => {
           </article>
         </div>
         {/* END of Contact options */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
