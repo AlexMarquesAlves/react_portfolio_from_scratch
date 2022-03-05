@@ -1,4 +1,10 @@
 import React from "react";
+import IMG1 from "../../assets/portfolio1.jpg";
+import IMG2 from "../../assets/portfolio2.webp";
+import IMG3 from "../../assets/portfolio3.webp";
+import IMG4 from "../../assets/portfolio4.webp";
+import IMG5 from "../../assets/portfolio5.png";
+import IMG6 from "../../assets/portfolio6.webp";
 
 const Portfolio = () => {
   return (
